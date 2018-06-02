@@ -5,6 +5,8 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -57,9 +59,21 @@ nav {
 
 /* TEA OF THE MONTH */
 
+.month {
+    width: 1000px;
+}
+
+.tea-options {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .individual-tea {
     height: 200px;
     width: 300px;
+    margin: 10px;
 }
 
 
@@ -67,4 +81,7 @@ nav {
 
 .locations {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
