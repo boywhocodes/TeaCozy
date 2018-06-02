@@ -9,3 +9,36 @@ body {
 
 
 /* HEADER */
+
+header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+
+/* MISSION */
+
+.mission {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+
+/* TEA OF THE MONTH */
+
+.individual-tea {
+    height: 200px;
+    width: 300px;
+}
+
+
+/* LOCATIONS */
+
+.locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
