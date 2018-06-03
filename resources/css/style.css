@@ -94,6 +94,7 @@ header a {
 .month {
     width: 1000px;
     padding-top: 70px;
+    margin-bottom: 70px;
 }
 
 .month h2,
@@ -122,12 +123,30 @@ h4 {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     padding-top: 70px;
+    height: 500px;
+    width: 1200px;
+}
+
+.locations h2 {
+    padding: 10px;
+    color: seashell;
+    position: relative;
+    bottom: 100px;
+}
+
+.flex-locations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
 }
 
 .specific-locat {
     background-color: black;
+    height: 280;
     width: 300px;
     margin: 5px 20px;
     padding: 10px 0px;
@@ -135,9 +154,18 @@ h4 {
 
 .locations h3 {
     padding: 10px;
+    margin: 0 auto;
 }
 
 .locations p {
     margin-top: 44px;
     margin-bottom: 44px;
+}
+
+
+/* FOOTER */
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
 }
