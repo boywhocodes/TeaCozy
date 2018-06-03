@@ -9,11 +9,6 @@ body {
     justify-content: center;
 }
 
-h2,
-h4 {
-    margin: 0 auto;
-}
-
 
 /* HEADER */
 
@@ -24,6 +19,7 @@ header {
     display: flex;
     width: 100%;
     height: 69px;
+    top: 0px;
     border-bottom: 1px solid seashell;
     justify-content: space-between;
     align-items: center;
@@ -35,6 +31,7 @@ header img {
     align-items: center;
     color: seashell;
     height: 50px;
+    margin-left: 10px;
 }
 
 nav {
@@ -73,15 +70,36 @@ header a {
 
 .mission .text {
     background-color: black;
-    padding: 10px;
     width: 100%;
+}
+
+.mission h2 {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.mission h4 {
+    margin: 0 auto;
+    padding: 10px;
 }
 
 
 /* TEA OF THE MONTH */
 
+.month-flex {
+    display: flex;
+    justify-content: center;
+}
+
 .month {
     width: 1000px;
+    padding-top: 70px;
+}
+
+.month h2,
+h4 {
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .tea-options {
@@ -105,4 +123,5 @@ header a {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding-top: 70px;
 }
