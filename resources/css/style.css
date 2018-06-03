@@ -125,3 +125,19 @@ h4 {
     flex-direction: row;
     padding-top: 70px;
 }
+
+.specific-locat {
+    background-color: black;
+    width: 300px;
+    margin: 5px 20px;
+    padding: 10px 0px;
+}
+
+.locations h3 {
+    padding: 10px;
+}
+
+.locations p {
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
